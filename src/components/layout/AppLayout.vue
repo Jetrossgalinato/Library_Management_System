@@ -34,7 +34,7 @@ function onClick() {
 
       <v-footer
         class="font-weight-bold"
-        :color="theme === 'light' ? 'grey-lighten-2' : 'grey-darken-3'"
+        :color="theme === 'light' ? 'light-green-lighten-3' : 'green-darken-1'"
         elevation="24"
         app
       >
