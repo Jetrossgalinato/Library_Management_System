@@ -1,19 +1,21 @@
 <script setup>
 import AppLayout from '@/components/layout/AppLayout.vue'
 import LoginForm from '@/components/auth/LoginForm.vue'
+
+// Reactive variable for linkUrl
+const linkUrl = 'https://www.facebook.com/masaolms'
 </script>
 
 <template>
   <AppLayout>
     <template #content>
-      <v-container fluid
-        ><v-row>
-          <v-col cols="12" md="3" class="mx-auto pt-16"
-            ><v-card class="mx-auto" elevation="23">
+      <v-container fluid>
+        <v-row>
+          <v-col cols="12" md="3" class="mx-auto pt-16">
+            <v-card class="mx-auto" elevation="23">
               <v-card-title class="text-center">
                 <v-img class="mx-auto pt-5" src="/images/logo.png" width="20%"></v-img>
                 <h3 class="font-weight-bold">LIBRARY</h3>
-         
                 <p class="text-body-1"></p>
               </v-card-title>
 
@@ -23,9 +25,7 @@ import LoginForm from '@/components/auth/LoginForm.vue'
 
                 <h5 class="text-center">
                   For Concerns and Inquiries kindly message on
-                  <RouterLink class="text-deep-green-darken-1" to="/register"
-                    >MasaoLMS Facebook Page</RouterLink
-                  >
+                  <a :href="linkUrl" target="_blank">MasaoLMS Facebook Page</a>
                 </h5>
               </v-card-text>
             </v-card>
