@@ -15,7 +15,6 @@ function onClick() {
       <v-app-bar
         class="px-2"
         :color="theme === 'light' ? 'light-green-lighten-3' : 'green-darken-1'"
-      
       >
         <v-spacer></v-spacer>
 
@@ -34,13 +33,12 @@ function onClick() {
       </v-main>
 
       <v-footer
-        class="font-weight-bold "
+        class="font-weight-bold"
         :color="theme === 'light' ? 'grey-lighten-2' : 'grey-darken-3'"
         elevation="24"
         app
-    
       >
-        Galinato-Lidasan
+        Copyright © 2024 - Library Management System | All Rights Reserved
       </v-footer>
     </v-app>
   </v-responsive>
