@@ -12,7 +12,7 @@ import RegisterForm from '@/components/auth/RegisterForm.vue'
             ><v-card class="mx-auto" elevation="23">
               <v-card-title class="text-center">
                 <v-img class="mx-auto" src="/images/logo-favicon.png" width="25%"></v-img>
-                <h3 class="font-weight-black">Library Management System</h3>
+                <h3 class="font-weight-black">Library</h3>
                 <p class="text-subtitle-2">Register form</p>
               </v-card-title>
 

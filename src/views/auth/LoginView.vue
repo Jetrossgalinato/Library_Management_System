@@ -8,22 +8,23 @@ import LoginForm from '@/components/auth/LoginForm.vue'
     <template #content>
       <v-container fluid
         ><v-row>
-          <v-col cols="12" md="6" class="mx-auto pt-16"
+          <v-col cols="12" md="3" class="mx-auto pt-16"
             ><v-card class="mx-auto" elevation="23">
               <v-card-title class="text-center">
-                <v-img class="mx-auto" src="/images/logo-favicon.png" width="25%"></v-img>
-                <h3 class="font-weight-black">Library Management System</h3>
-                <p class="text-subtitle-2">Login form</p>
+                <v-img class="mx-auto pt-5" src="/images/logo.png" width="20%"></v-img>
+                <h3 class="font-weight-bold">LIBRARY</h3>
+         
+                <p class="text-body-1"></p>
               </v-card-title>
 
-              <v-card-text class="bg-surface-light pt-4">
+              <v-card-text class="bg-surface-dark pt-4">
                 <LoginForm></LoginForm>
                 <v-divider class="my-5"></v-divider>
 
                 <h5 class="text-center">
-                  Don't have account?
-                  <RouterLink class="text-deep-orange-lighten-1" to="/register"
-                    >Click here to Register!</RouterLink
+                  For Concerns and Inquiries kindly message on
+                  <RouterLink class="text-deep-green-darken-1" to="/register"
+                    >MasaoLMS Facebook Page</RouterLink
                   >
                 </h5>
               </v-card-text>

@@ -13,9 +13,9 @@ function onClick() {
   <v-responsive class="border rounded">
     <v-app :theme="theme">
       <v-app-bar
-        class="px-3"
-        :color="theme === 'light' ? 'grey-lighten-2' : 'grey-darken-3'"
-        border
+        class="px-2"
+        :color="theme === 'light' ? 'light-green-lighten-3' : 'green-darken-1'"
+      
       >
         <v-spacer></v-spacer>
 
@@ -23,7 +23,7 @@ function onClick() {
         <v-btn
           :icon="theme === 'light' ? 'mdi-weather-sunny' : 'mdi-weather-night'"
           variant="elevated"
-          :style="{ backgroundColor: theme === 'light' ? '#F7971D' : '#F7971D', color: 'white' }"
+          :style="{ backgroundColor: theme === 'light' ? '#43A047' : '#263238', color: 'white' }"
           slim
           @click="onClick"
         ></v-btn>
@@ -34,13 +34,13 @@ function onClick() {
       </v-main>
 
       <v-footer
-        class="font-weight-bold"
+        class="font-weight-bold "
         :color="theme === 'light' ? 'grey-lighten-2' : 'grey-darken-3'"
         elevation="24"
-        border
         app
+    
       >
-        2024 - Library Management System
+        Galinato-Lidasan
       </v-footer>
     </v-app>
   </v-responsive>
